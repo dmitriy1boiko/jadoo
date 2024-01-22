@@ -12,11 +12,17 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header>
       <div class="container header__container">
         <nav class="header__nav">
-          <a class="logo" href="./index.html" aria-label="Logo"
+          <a
+            class="logo"
+            href="./index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Logo"
             ><img src="./img/Logo.png" alt="Logo"
           /></a>
           <ul class="header__nav__list">
@@ -38,8 +44,16 @@
         </nav>
 
         <ul class="header__list__avtorization">
-          <li><button class="auturization__button">Login</button></li>
-          <li><button class="auturization__button">Sign up</button></li>
+          <li>
+            <button type="submit" class="auturization__button">
+              Login
+            </button>
+          </li>
+          <li>
+            <button type="submit" class="auturization__button">
+              Sign up
+            </button>
+          </li>
         </ul>
         <div class="custom__select">
           <select class="select__explore__heder select">
@@ -47,17 +61,17 @@
             <option>UA</option>
           </select>
         </div>
-        <img class="heder__bg" src="./img/Decore.png" />
+        <img class="heder__bg" src="./img/Decore.png" alt="decor element" />
       </div>
     </header>
     <main>
-      <section class="herro">
-        <div class="container herro__container">
+      <section class="container herro">
+        <div class="herro__container">
           <div class="wrapper__herro">
             <p class="herro__text">Best Destinations around the world</p>
             <h1 class="herro__title">
               Travel, enjoy and live a new and full life
-              <img src="./img/DecoreText.png" class="herro__title__img"/>
+              <img src="./img/DecoreText.png" alt="decor element" class="herro__title__img" />
             </h1>
             <span class="herro__text__span"
               >Built Wicket longer admire do barton vanity itself do in it.
@@ -65,70 +79,532 @@
               west hard for the.</span
             >
             <ul class="herro__list">
-              <li><a class="herro__link" target="_blank" rel="noopener noreferrer" href="#">Find out more</a></li>
+              <li>
+                <a
+                  class="herro__link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="#"
+                  >Find out more</a
+                >
+              </li>
               <li class="item__video">
                 <div class="video">
                   <img
                     alt="icon play"
-                    width="52px"
-                    height="52px"
-                    src="./img/Play button.svg"
+                    src="./img/Playbutton.svg"
                   />
                   <span class="herro__text__span">Play Demo</span>
                 </div>
               </li>
             </ul>
           </div>
-          <img class="herro__img herro__img__planeOne" src="./img/plane.png" />
-          <img class="herro__img herro__img__planeTwo" src="./img/plane.png" />
-          <img class="herro__img__woman" src="./img/Traveller 1.png" />
+          <img
+            class="herro__img herro__img__planeOne"
+            src="./img/plane.png"
+            alt="Foto airplane"
+          />
+          <img
+            class="herro__img herro__img__planeTwo"
+            src="./img/plane.png"
+            alt="Foto airplane"
+          />
+          <img
+            class="herro__img__woman"
+            src="./img/Traveller.png"
+            alt="Foto tourist woman"
+          />
           <!-- <img src="./img/Group 4.png" /> -->
         </div>
       </section>
-      <section class="services">
-        <div class="container services__container">
-          <P>Category</P>
-          <h2>We Offer Best Services</h2>
+      <section class="container services">
+        <img class="services__img" src="./img/Group.png" alt="decor element" />
+        <div class="services__container">
+          <p class="services__text">Category</p>
+          <h2 class="services__title">We Offer Best Services</h2>
           <ul class="services__list">
             <li class="services__item">
               <div class="services__thumb services__thumb__padding">
-                <img class="services__thumb_img thumb_img__margin" src="./img/Antena.svg"/>
-                <h3 class="services__thumb__title">Calculated Weather </h3>
-                <p class="services__thumb__text">Built Wicket longer admire do barton vanity itself do in it.<p/>
+                <img
+                  class="services__thumb_img thumb_img__margin"
+                  src="./img/Antena.svg"
+                  alt="Foto width antena"
+                />
+                <h3 class="services__thumb__title">Calculated Weather</h3>
+                <p class="services__thumb__text">
+                  Built Wicket longer admire do barton vanity itself do in it.
+                </p>
               </div>
-              
             </li>
             <li class="services__item">
               <div class="services__thumb">
-                <img class="services__thumb_img" src="./img/Airplane 51.svg"/>
+                <img class="services__thumb_img" src="./img/Airplane.svg" alt="airplane"/>
                 <h3 class="services__thumb__title">Best Flights</h3>
-                <p class="services__thumb__text">Engrossed listening. Park gate sell they west hard for the.<p/>
+                <p class="services__thumb__text">
+                  Engrossed listening. Park gate sell they west hard for the.
+                </p>
               </div>
               <div class="services__thumb__active"></div>
             </li>
             <li class="services__item">
               <div class="services__thumb services__thumb__padding">
-                <img class="services__thumb_img thumb_img__margin" src="./img/Microphone.svg"/>
+                <img
+                  class="services__thumb_img thumb_img__margin"
+                  src="./img/Microphone.svg"
+                  alt="foto microphone"
+                />
                 <h3 class="services__thumb__title">Local Events</h3>
-                <p class="services__thumb__text">Barton vanity itself do in it. Preferd to men it engrossed listening. <p/>
+                <p class="services__thumb__text">
+                  Barton vanity itself do in it. Preferd to men it engrossed
+                  listening.
+                </p>
               </div>
               <div class="services__thumb__active"></div>
             </li>
             <li class="services__item">
               <div class="services__thumb services__thumb__padding">
-                <img class="services__thumb_img thumb_img__margin__end" src="./img/Shaiba.svg"/>
+                <img
+                  class="services__thumb_img thumb_img__margin__end"
+                  src="./img/Shaiba.svg"
+                  alt="Foto shaiba"
+                />
                 <h3 class="services__thumb__title">Customization</h3>
-                <p class="services__thumb__text">We deliver outsourced
-                  aviation services for
-                  military customers<p/>
+                <p class="services__thumb__text">
+                  We deliver outsourced aviation services for military customers
+                </p>
               </div>
               <div class="services__thumb__active"></div>
             </li>
           </ul>
-
         </div>
       </section>
+      <section class="container container__selling">
+        <p class="selling__text">Top Selling</p>
+        <h2 class="selling__title">Top Destinations</h2>
+        <ul class="list__selling">
+          <li class="item__selling">
+            <span class="item__selling__span"
+              ><img
+                class="item__selling__span__img"
+                src="./img/navigation.svg"
+                alt="arrow"
+              />
+              10 Days Trip</span
+            >
+            <div class="item__selling__container">
+              <span class="item__selling__text">Rome, Italty</span
+              ><span class="item__selling__text">$5,42k</span>
+            </div>
+            <img
+              class="item__selling__img"
+              alt="city Rome"
+              src="./img/Rome.jpg"
+            />
+          </li>
+          <li class="item__selling">
+            <span class="item__selling__span"
+              ><img
+                class="item__selling__span__img"
+                src="./img/navigation.svg"
+                alt="arrow"
+              />
+              12 Days Trip</span
+            >
+            <div class="item__selling__container">
+              <span class="item__selling__text">London, UK</span
+              ><span class="item__selling__text">$4.2k</span>
+            </div>
+            <img
+              class="item__selling__img"
+              alt="city London"
+              src="./img/London.jpg"
+            />
+          </li>
+          <li class="item__selling">
+            <span class="item__selling__span"
+              ><img
+                class="item__selling__span__img"
+                src="./img/navigation.svg"
+                alt="arrow"
+              />
+              28 Days Trip</span
+            >
+            <div class="item__selling__container">
+              <span class="item__selling__text">Full Europe</span
+              ><span class="item__selling__text">$15k</span>
+            </div>
+            <img
+              class="item__selling__img"
+              alt="city in Europe"
+              src="./img/Europe.jpg"
+            />
+          </li>
+        </ul>
+        <svg
+          class="selling__svg"
+          xmlns="http://www.w3.org/2000/svg"
+          width="98"
+          height="254"
+          viewBox="0 0 98 254"
+          fill="none"
+        >
+          <path
+            d="M8.95816 14.2344C15.985 5.71795 33.7527 -7.37604 48.6094 8.37933C63.4661 24.1347 43.423 53.6228 31.5443 66.3974C25.6886 69.9459 13.4754 75.9784 11.4677 71.7202C8.95816 66.3974 7.45241 55.2196 28.0309 45.6387C41.248 39.961 69.7902 33.9286 78.2224 55.2196C82.0704 64.4457 82.7396 85.8787 54.6324 97.8017L19.4984 113.238M19.4984 113.238C6.11398 113.774 -13.1261 107.392 16.9888 77.5752C26.5252 72.9621 49.6133 63.6296 65.6746 63.2038C74.8763 65.1554 92.5772 74.8074 89.7665 97.8017C90.1011 102.415 83.8439 113.876 56.1382 122.819C49.7806 124.238 35.5597 127.183 29.5367 127.609L7.95439 130.803L19.4984 113.238ZM19.4984 113.238C28.2808 110.754 49.0085 106.531 61.6592 109.512C77.4727 113.238 83.7435 110.044 96.2913 130.803C98.4663 141.448 96.8936 163.272 73.2033 165.401C49.5129 167.53 34.2212 163.449 29.5367 161.143V141.448M29.5367 141.448C46.7691 143.045 83.7435 141.874 93.7818 124.415C98.6336 111.996 99.0017 86.6239 61.6592 84.4948C52.6248 84.8496 33.3513 85.9852 28.5329 87.6884L29.5367 125.48C47.1037 127.077 84.0446 134.635 91.2722 152.094C95.1202 162.207 96.3917 183.498 70.6937 187.756C61.1573 188.111 39.575 186.798 29.5367 178.708M29.5367 141.448V178.708M29.5367 141.448C40.4115 144.11 64.3696 151.455 73.2033 159.546C83.9108 168.417 99.604 190.418 76.7167 207.45C69.5225 210.112 50.4163 212.241 31.5443 199.466M29.5367 178.708L31.5443 199.466M29.5367 178.708C41.5827 187.224 66.1765 207.876 68.1841 222.354C69.0207 231.225 66.7788 249.713 51.119 252.694C47.1037 253.404 37.1658 253.333 29.5367 247.371L31.5443 199.466"
+            stroke="#84829A"
+          />
+        </svg>
+      </section>
+      <section class="container book">
+        <ul class="book__list">
+          <li class="book__item">
+            <span class="book__span">Easy and Fast</span>
+            <h2 class="book__title">Book your next trip</h2>
+            <p class="book__text book__title">in 3 easy steps</p>
+            <ul class="book__list__list">
+              <li class="book__list__item">
+                <img
+                  class="book__list__item__img"
+                  src="./img/Choose.svg"
+                  alt="icon svg"
+                />
+                <div class="book__list__item__box">
+                  <span class="box__span book__list__item__box__span"
+                    >Choose Destination</span
+                  >
+                  <span class="box__span book__list__item__box__text"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </span>
+                </div>
+              </li>
+              <li class="book__list__item">
+                <img
+                  class="book__list__item__img"
+                  src="./img/Make.svg"
+                  alt="icon svg"
+                />
+                <div class="book__list__item__box">
+                  <span class="box__span book__list__item__box__span"
+                    >Make Payment</span
+                  >
+                  <span class="box__span book__list__item__box__text"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.</span
+                  >
+                </div>
+              </li>
+              <li class="book__list__item">
+                <img
+                  class="book__list__item__img"
+                  src="./img/Reach.svg"
+                  alt="icon svg"
+                />
+                <div class="book__list__item__box">
+                  <span class="box__span book__list__item__box__span"
+                    >Reach Airport on Selected Date</span
+                  >
+                  <span class="box__span book__list__item__box__text"
+                    >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="item__greece">
+            <div class="book__box__shaddov"></div>
+            <div class="book__box___greece">
+              <img src="./img/Greece.jpg" alt="city in Greece" />
+              <p class="book__box___greece__text">Trip To Greece</p>
+              <span class="book__box___greece__span greece__span__one"
+                >14-29 June | by Robbin joseph</span
+              >
+              <ul class="book__box___greece__list">
+                <li><img src="./img/leaf.svg" alt="decor element svg" /></li>
+                <li><img src="./img/map.svg" alt="decor element svg" /></li>
+                <li><img src="./img/send.svg" alt="decor element svg" /></li>
+              </ul>
+              <span class="book__box___greece__span greece__span__two"
+                ><img src="./img/building.svg" alt="decor element svg" />24
+                people going</span
+              >
+            </div>
+            <div class="item__greece__box">
+              <img class="img__sobor" src="./img/Sobor.png" alt="Sobor" />
+              <div class="greece__box__box">
+                <span class="greece__box__box__span">Ongoing</span>
+                <p class="greece__box__box__text">Trip to rome</p>
+                <span class="item__greece__box__span greece__box__span__light"
+                  >40%<span
+                    class="item__greece__box__span greece__box__span__dark"
+                    >completed</span
+                  ></span
+                >
+                <img
+                  class="greece__img_line"
+                  src="./img/Line.svg"
+                  alt="decor element svg"
+                />
+                <img
+                  class="greece__img_heart"
+                  src="./img/heart.svg"
+                  alt="decor element svg"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="container testimonials">
+        <ul class="testimonials__list">
+          <li class="testimonials__item">
+            <h2 class="testimonials__title">Testimonials</h2>
+            <p class="testimonials__text">What people say about Us.</p>
+          </li>
+          <li>
+            <ul class="testimonials__people__list">
+              <li class="testimonials__people__item">
+                <img src="./img/SmaileMan.png" alt="smile man" />
+              </li>
+              <li class="people__item__one">
+                <span class="people__item__one_text"
+                  >“On the Windows talking painted pasture yet its express
+                  parties use. Sure last upon he same as knew next. Of believed
+                  or diverted no.”</span
+                >
+              </li>
+              <li class="people__item__two">
+                <div class="people__box__wrap">
+                  <span class="people__box__text__one people__box__text"
+                    >Mike taylor</span
+                  >
+                  <span class="people__box__text__two people__box__text"
+                    >Lahore, Pakistan</span
+                  >
+                </div>
+              </li>
+              <li></li>
+              <li class="people__item__three">
+                <div class="people__box__wrap">
+                  <span class="people__box__text__one people__box__text"
+                    >Chris Thomas</span
+                  >
+                  <span class="people__box__text__two people__box__text"
+                    >CEO of Red Button</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="container partners__logo">
+        <ul class="partners__list">
+          <li class="partners__item">
+            <img alt="logo partner" src="./img/axon.png" />
+          </li>
+          <li class="partners__item">
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img alt="logo partner" src="./img/Jestar.png"
+            /></a>
+          </li>
+          <li class="partners__item">
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img alt="logo partner" src="./img/Expedia.png"
+            /></a>
+          </li>
+          <li class="partners__item">
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img alt="logo partner" src="./img/Qantans.png"
+            /></a>
+          </li>
+          <li class="partners__item">
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img alt="logo" src="./img/Allitalia.png"
+            /></a>
+          </li>
+        </ul>
+      </section>
+      <section class="container subscribe">
+        <img
+          class="subscribe__ellipses"
+          alt="Foto with ellipses"
+          src="./img/Ellipses.png"
+        />
+        <img
+          class="subscribe__icon__telegram"
+          alt="Icon Telegram"
+          src="./img/Telegram.svg"
+        />
+        <h2 class="subscribe__title">
+          Subscribe to get information, latest news and other interesting offers
+          about Jadoo
+        </h2>
+        <form
+          class="subscribe__form"
+          name="subscribe_form"
+          autocomplete="on"
+          novalidate
+        >
+          <div class="subscribe__form__wrapper__input">
+            <input
+              type="email"
+              class="subscribe__form__input"
+              autocomplete="email"
+              placeholder="Your email"
+            />
+            <img
+              alt="Photo of the envelope"
+              class="subscribe__form__wrapper__svg"
+              src="./img/Email.svg"
+            />
+          </div>
+          <button
+            class="subscribe__form__btn"
+          >
+            Subscribe
+          </button>
+          <img
+            class="subscribe__form__png__plusses"
+            alt="Foto decor element"
+            src="./img/Plusegrup.png"
+          />
+        </form>
+      </section>
     </main>
+    <footer class="container footer">
+      <div class="footer__wrapper">
+        <div class="footer__logo__wrapper">
+          <a class="logo" href="./index.html" aria-label="Logo"
+            ><img src="./img/Logo.png" alt="Logo"
+          /></a>
+          <h2 class="footer__title">
+            Book your trip in minute, get full Control for much longer.
+          </h2>
+        </div>
+        <ul class="footer__list footer__list__one">
+          <li class="footer__item__title">Company</li>
+          <li class="footer__item footer__item__one">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >About</a
+            >
+          </li>
+          <li class="footer__item footer__item___two">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Careers</a
+            >
+          </li>
+          <li class="footer__item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Mobile</a
+            >
+          </li>
+        </ul>
+        <ul class="footer__list footer__list__two">
+          <li class="footer__item__title">Contact</li>
+          <li class="footer__item footer__item__one">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Help/FAQ</a
+            >
+          </li>
+          <li class="footer__item footer__item___two">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Press</a
+            >
+          </li>
+          <li class="footer__item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Affilates</a
+            >
+          </li>
+        </ul>
+        <ul class="footer__list footer__list__three">
+          <li class="footer__item__title">More</li>
+          <li class="footer__item footer__item__one">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Airlinefees</a
+            >
+          </li>
+          <li class="footer__item footer__item___two">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Airline</a
+            >
+          </li>
+          <li class="footer__item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__item__link"
+              >Low fare tips</a
+            >
+          </li>
+        </ul>
+        <div class="footer__wrapper__social">
+          <ul class="footer__wrapper__social__list">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><img src="./img/Facebook.svg" alt="icon Facebook"
+              /></a>
+            </li>
+            <li class="footer__wrapper__social__icon">
+              <a><img src="./img/icons45.svg" alt="decor element"/></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><img src="./img/Twitter.svg" alt="icon Twitter"
+              /></a>
+            </li>
+          </ul>
+          <p class="footer__wrapper__social__text">Discover our app</p>
+          <ul class="footer__wrapper__social__list__two">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><img src="./img/GooglePlay.png" alt="icon Google"
+              /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><img src="./img/Apple.png" alt="icon Apple"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <span class="footer__text">All rights reserved@jadoo.com</span>
+    </footer>
   </body>
   <script src="./js/index.js"></script>
 </html>
